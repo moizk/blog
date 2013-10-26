@@ -1,6 +1,4 @@
 name: Your New Jekyll Site
 markdown: redcarpet
 pygments: true
-relative_permalinks: false
 baseurl: /blog
-repository: https://github.com/moizk/blog
