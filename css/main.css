@@ -24,8 +24,17 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
+h3 {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+p {
+  font-family: 'ff-tisa-web-pro', Georgia, serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 1em 0;
+}
 
 a {
   color: #fa4b00;
@@ -38,18 +47,24 @@ a {
 /* Home
 /*
 /*****************************************************************************/
+
+div#home {
+  padding: 25px;
+}
+
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em;
 }
 
 ul.posts li {
-  line-height: 1.75em;
+  border-bottom: 1px solid #eee;
+  line-height: 1em;
+  padding-bottom: 20px;
 }
 
 ul.posts span {
   color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
   font-size: 80%;
 }
 
@@ -63,7 +78,7 @@ ul.posts span {
   background-color: #fff;
   font-size: 115%;
   text-align: justify;
-  width: 42em;
+  max-width: 800px;
   margin: 15px auto 0 auto;
   line-height: 1.5em;
 }
@@ -132,9 +147,25 @@ ul.posts span {
 /*
 /*****************************************************************************/
 
-/* standard */
+h3.post_headline {
+  font-size: 24px;
+  line-height: 1.5;
+  padding-top: 25px;
+}
+
+h5.post_date {
+  text-align: center;
+  font-weight: 400;
+  font-size: 85%;
+}
+
+
+.post p {
+  padding: 0 50px 0 50px;
+  line-height: 1.5;
+}
+
 .post pre {
-  border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
 }
@@ -144,7 +175,6 @@ ul.posts span {
 }
 
 .post code {
-  border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .2em;
 }
@@ -155,7 +185,6 @@ ul.posts span {
 
 /* terminal */
 .post pre.terminal {
-  border: 1px solid #000;
   background-color: #333;
   color: #FFF;
 }

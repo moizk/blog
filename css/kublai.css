@@ -6,3 +6,9 @@ div.mkm_header {
 div.mkm_header img {
 	width: 200px;
 }
+
+
+
+/* Helper Classes */
+
+.text-center { text-align: center; }
