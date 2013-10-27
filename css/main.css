@@ -10,8 +10,6 @@
   padding: 0;
 }
 
-html, body { height: 100%; }
-
 body {
   background-color: #ECEEF1;
   font: 13.34px "Proxima-Nova", Helvetica, Arial, sans-serif;
@@ -61,6 +59,10 @@ ul.posts li {
   border-bottom: 1px solid #eee;
   line-height: 1em;
   padding-bottom: 20px;
+}
+
+ul.posts li:last-child {
+  border: 0;
 }
 
 ul.posts span {
@@ -114,31 +116,10 @@ ul.posts span {
   color: #aaa;
 }
 
-.site .footer {
-  font-size: 80%;
-  color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
-  overflow: hidden;
-}
+/* Footer */
 
-.site .footer .contact {
-  float: left;
-  margin-right: 3em;
-}
-
-.site .footer .contact a {
-  color: #8085C1;
-}
-
-.site .footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
-}
-
-.site .footer .rss img {
-  border: 0;
+div.footer {
+  padding-top: 15px;
 }
 
 /*****************************************************************************/
@@ -191,4 +172,35 @@ h5.post_date {
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+
+/*****************************************************************************/
+/*
+/* About
+/*
+/*****************************************************************************/
+
+div.about_page {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+div.about_page h5 {
+  color: #858586;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+}
+
+div.about_page p {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+div.about_page h3 {
+  text-align: center;
+  font-size: 32px;
+  line-height: 1.5;
 }
