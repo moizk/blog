@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello World"
 date:   2013-10-27 8:37 AM
-categories: firstpost
+categories: announcements
 ---
 
 My first blog used Wordpress as the platform. Wordpress was great, it had tons of features and a lot of themes. It was pretty easy to get started, and I wrote quite a few essays about religion. I eventually abandoned that blog. My second blog, a reboot of the first, was also on Wordpress. I wrote a few more essays about politics, and I eventually abandoned that one too. 
