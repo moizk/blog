@@ -7,8 +7,11 @@ div.mkm_header img {
 	width: 200px;
 }
 
-
-
 /* Helper Classes */
 
 .text-center { text-align: center; }
+.img-responsive {
+	display: block;
+	height: auto;
+	max-width: 100%;
+ }
