@@ -1,0 +1,211 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ECEEF1;
+  font: 13.34px "Proxima-Nova", Helvetica, Arial, sans-serif;
+  font-size: small;
+  text-align: center;
+}
+
+/* Typography */
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+h3 {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+p {
+  font-family: 'ff-tisa-web-pro', Georgia, serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 1em 0;
+}
+
+a {
+  color: #fa4b00;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+
+div#home {
+  padding: 25px;
+}
+
+ul.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+ul.posts li {
+  border-bottom: 1px solid #eee;
+  line-height: 1em;
+  padding-bottom: 20px;
+}
+
+ul.posts li:last-child {
+  border: 0;
+}
+
+ul.posts span {
+  color: #aaa;
+  font-size: 80%;
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.site {
+  background-color: #fff;
+  font-size: 115%;
+  text-align: justify;
+  max-width: 800px;
+  margin: 15px auto 0 auto;
+  line-height: 1.5em;
+}
+
+.site .header a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.site .header h1.title {
+  display: inline-block;
+  margin-bottom: 2em;
+}
+
+.site .header h1.title a {
+  color: #a00;
+}
+
+.site .header h1.title a:hover {
+  color: #000;
+}
+
+.site .header a.extra {
+  color: #aaa;
+  margin-left: 1em;
+}
+
+.site .header a.extra:hover {
+  color: #000;
+}
+
+.site .meta {
+  color: #aaa;
+}
+
+/* Footer */
+
+div.footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+
+h3.post_headline {
+  font-size: 24px;
+  line-height: 1.5;
+  padding-top: 25px;
+}
+
+h5.post_date {
+  text-align: center;
+  font-weight: 400;
+  font-size: 85%;
+}
+
+.post {
+  padding-bottom: 25px;
+}
+
+
+.post p {
+  padding: 0 50px 0 50px;
+  line-height: 1.5;
+}
+
+.post pre {
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+.post ul, .post ol {
+  margin-left: 1.35em;
+}
+
+.post code {
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+.post pre code {
+  border: none;
+}
+
+/* terminal */
+.post pre.terminal {
+  background-color: #333;
+  color: #FFF;
+}
+
+.post pre.terminal code {
+  background-color: #333;
+}
+
+
+/*****************************************************************************/
+/*
+/* About
+/*
+/*****************************************************************************/
+
+div.about_page {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+div.about_page h5 {
+  color: #858586;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+}
+
+div.about_page p {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+div.about_page h3 {
+  text-align: center;
+  font-size: 32px;
+  line-height: 1.5;
+}
