@@ -151,9 +151,13 @@ h5.post_date {
   line-height: 1.5;
 }
 
+p#image-paragraph {
+  text-align: center;
+}
+
 .post pre {
-  background-color: #eef;
-  padding: 0 .4em;
+  background-color: #042029;
+  padding: 10px 25px 10px 25px;
 }
 
 .post ul, .post ol {
@@ -161,7 +165,7 @@ h5.post_date {
 }
 
 .post code {
-  background-color: #eef;
+  background-color: #042029;
   padding: 0 .2em;
 }
 

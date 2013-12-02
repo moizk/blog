@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "Excuses"
+date:   2013-12-01
+categories: thoughts
+---
+
+There is always an excuse.
+
+Today my excuse was that my “L” key stopped working on my Macbook Air. Within an hour, the right Option key was transformed into an L key. How you may ask? The question was far too contrived.
+
+I’ll tell you how anyway though.
+
+I found a [keyboard remapping application](https://pqrs.org/index.html.en) that featured a comprehensive but poorly organized library of documentation. Doesn’t seem like the guy is a native English speaker.  After rummaging through the documentation, I put this code into the program:
+
+{% highlight xml %}
+<?xml version="1.0"?>
+<root>
+    <item>
+      <name>Swap Option with l</name>
+      <identifier>private.swap_option_and_tab</identifier>
+      <autogen>__KeyToKey__ KeyCode::OPTION_R, KeyCode::RawValue::0x25</autogen>
+    </item>
+</root>
+{% endhighlight %}
+
+Magically (not really, there’s an obvious method), my right option key, now functions as if it is an L key. It’s strange. My hands still believe that my L key still works. It’s like a phantom limb, but way worse. 
+
+Apparently the “L” key is [referred](https://github.com/tekezo/KeyRemap4MacBook/blob/version_9.2.0/src/bridge/generator/keycode/data/KeyCode.data) to as 0x25 by OSX. I’m not entirely sure why. 
+
+There is always an excuse. There is always an excuse not to code, to design, to write, to think. My L key is was probably the best excuse I’ve had in months not to write.
+
+Fuck excuses. It’s my time to assert my opinions onto the world.
+
+Fuck fear. It’s time to be aware of inevitable failure and try anyway.
+
+
+
+
