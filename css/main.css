@@ -59,6 +59,7 @@ ul.posts li {
   border-bottom: 1px solid #eee;
   line-height: 1em;
   padding-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 ul.posts li:last-child {
