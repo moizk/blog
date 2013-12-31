@@ -59,6 +59,7 @@ ul.posts li {
   border-bottom: 1px solid #eee;
   line-height: 1em;
   padding-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 ul.posts li:last-child {
@@ -166,6 +167,7 @@ p#image-paragraph {
 
 .post code {
   background-color: #042029;
+  color: #999999;
   padding: 0 .2em;
 }
 
