@@ -9,9 +9,16 @@ div.mkm_header img {
 
 /* Helper Classes */
 
+.pull-left {
+  float: left;
+}
+
+.text-left { text-align: left; }
+.text-right { text-align: right; }
 .text-center { text-align: center; }
 .img-responsive {
-	display: block;
-	height: auto;
-	max-width: 100%;
+  display: block;
+  height: auto;
+  max-width: 100%;
  }
+
