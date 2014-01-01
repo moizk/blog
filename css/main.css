@@ -47,6 +47,22 @@ a {
 /*
 /*****************************************************************************/
 
+h2#archive {
+  /* Positioning */
+  /* Box-model */
+  margin: 15px auto;
+  max-width: 200px;
+  padding: 15px;
+  /* Typography */
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  /* Visual */
+  border: 1px solid #ccc;
+  /* Misc */
+}
+
 div#home {
   padding: 25px;
 }
@@ -58,13 +74,10 @@ ul.posts {
 
 ul.posts li {
   border-bottom: 1px solid #eee;
+  max-width: 420px;
   line-height: 1em;
-  padding-bottom: 20px;
-  margin-bottom: 25px;
-}
-
-ul.posts li:last-child {
-  border: 0;
+  padding:15px 25px 15px;
+  margin: 0 auto;
 }
 
 ul.posts span {
