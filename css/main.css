@@ -78,6 +78,7 @@ ul.posts li {
   line-height: 1em;
   padding:15px 25px 15px;
   margin: 0 auto;
+  text-align: center;
 }
 
 ul.posts span {
