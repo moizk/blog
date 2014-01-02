@@ -101,6 +101,14 @@ ul.posts span {
   line-height: 1.5em;
 }
 
+ @media screen and (max-width: 320px) {
+  .site {
+    margin-top: 0;
+  }
+
+ }
+
+
 .site .header a {
   font-weight: bold;
   text-decoration: none;
