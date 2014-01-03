@@ -240,6 +240,24 @@ h5.post_date {
   border: none;
 }
 
+@media screen and (max-width: 320px) {
+  .post p {
+    padding: 0 14px 0 14px;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .post p.img-explanation {
+    border-top: 0;
+  }
+
+  .post ul li {
+    margin-left: 10px;
+    padding-right: 25px;
+    font-size: 15px;
+  }
+}
+
 /* terminal */
 .post pre.terminal {
   background-color: #333;
