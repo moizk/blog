@@ -153,8 +153,8 @@ div.footer {
 /*
 /*****************************************************************************/
 
-h3.post_headline {
-  font-size: 24px;
+h2.post_headline {
+  font-size: 40px;
   line-height: 1.5;
   padding-top: 25px;
 }
@@ -169,14 +169,50 @@ h5.post_date {
   padding-bottom: 25px;
 }
 
+.post h4 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.post h5 {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  border-bottom: 1px solid #ddd;
+  width: 320px;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #333;
+}
+
 
 .post p {
   padding: 0 50px 0 50px;
   line-height: 1.5;
 }
 
-p#image-paragraph {
+.post img {
+  margin: 0 auto;
   text-align: center;
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.post p.img-explanation {
+  /* Positioning */
+  /* Box-model */
+  margin: 0 auto;
+  max-width: 420px;
+  padding-top: 15px;
+  /* Typography */
+  font-size: 16px;
+  text-align: center;
+  /* Visual */
+  border-top: 1px solid #ccc;
+  /* Misc */
 }
 
 .post pre {
@@ -186,6 +222,12 @@ p#image-paragraph {
 
 .post ul, .post ol {
   margin-left: 1.35em;
+}
+
+.post ul li {
+  margin-left: 50px;
+  font-family: "kepler-std", Georgia, serif;
+  font-size: 17px;
 }
 
 .post code {
