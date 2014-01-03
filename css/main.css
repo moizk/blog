@@ -78,6 +78,7 @@ ul.posts li {
   line-height: 1em;
   padding:15px 25px 15px;
   margin: 0 auto;
+  text-align: center;
 }
 
 ul.posts span {
@@ -99,6 +100,14 @@ ul.posts span {
   margin: 15px auto 0 auto;
   line-height: 1.5em;
 }
+
+ @media screen and (max-width: 320px) {
+  .site {
+    margin-top: 0;
+  }
+
+ }
+
 
 .site .header a {
   font-weight: bold;
