@@ -7,7 +7,7 @@ categories: thoughts
 
 Brendan Eich has resigned as CEO of Mozilla and the world is a slightly better place as a result. For those who are unaware of the situation, Eich donated $1,000 to support Proposition 8 in California. Proposition 8 attempted to add "only marriage between a man and a woman is valid or recognized in California" into the California constitution.
 
-I've spent a bit of time <strike>procrastinating</strike> reading through the <strike>cesspool of the internet</strike> comments on Twitter/Hacker News responding Mr. Eich's resignation.
+I've spent a bit of time <strike>procrastinating</strike> reading through the <strike>cesspool of the internet</strike> comments on Twitter/Hacker News responding to Mr. Eich's resignation.
 
 The responses can be boiled down to effectively two camps:
 
@@ -40,9 +40,9 @@ But, Mr. Eich's opinions do not end there.
 
 Eich believes that the State of California should not allow gay marriage.
 
-The addition of the last statement is why his views are fundamentally bigoted and incompatible with modernity. Eich is not satisfied with not entering into a gay marriage himself, which is a non-harmful way of disagreeing with gay marriage. 
+The addition of the last statement is why his views are incompatible with modernity. Eich is not satisfied with not entering into a gay marriage himself, which is a non-harmful way of disagreeing with gay marriage. 
 
-I've noticed many responses to Eich's resignation equate Eich's intolerance of gay marriage with those who are intolerant of Eich's opinions (and thereby asking for his resignation). This is a invalid attempt to argue that both sides are equally wrong.
+I've noticed many responses to Eich's resignation equate Eich's intolerance of gay marriage with those who disagree with Eich's opinions (and are asking for his resignation). This is a invalid attempt to argue that both sides are equally wrong.
 
 It is one thing to disagree with gay marriage, and it is another to actively attempt to ban gay marriage. 
 
