@@ -169,6 +169,12 @@ h5.post_date {
   padding-bottom: 25px;
 }
 
+.post h3 {
+  padding-left: 50px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
 .post h4 {
   font-size: 30px;
   text-align: center;
@@ -238,6 +244,24 @@ h5.post_date {
 
 .post pre code {
   border: none;
+}
+
+@media screen and (max-width: 320px) {
+  .post p {
+    padding: 0 14px 0 14px;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .post p.img-explanation {
+    border-top: 0;
+  }
+
+  .post ul li {
+    margin-left: 10px;
+    padding-right: 25px;
+    font-size: 15px;
+  }
 }
 
 /* terminal */
