@@ -1,44 +1,55 @@
+---
+---
+
 /*****************************************************************************/
 /*
 /* Common
 /*
 /*****************************************************************************/
+
 /* Global Reset */
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 body {
   background-color: #ECEEF1;
   font: 13.34px "Proxima-Nova", Helvetica, Arial, sans-serif;
   font-size: small;
-  text-align: center; }
+  text-align: center;
+}
 
 /* Typography */
+
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
 h3 {
   font-size: 16px;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
 p {
   font-family: "kepler-std",serif;
   font-size: 20px;
   font-weight: 300;
   color: #333;
-  margin: 1em 0; }
+  margin: 1em 0;
+}
 
 a {
   color: #fa4b00;
   font-weight: 600;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 /*****************************************************************************/
 /*
 /* Home
 /*
 /*****************************************************************************/
+
 h2#archive {
   /* Positioning */
   /* Box-model */
@@ -52,98 +63,125 @@ h2#archive {
   text-transform: uppercase;
   /* Visual */
   border: 1px solid #ccc;
-  /* Misc */ }
+  /* Misc */
+}
 
 div#home {
-  padding: 25px; }
+  padding: 25px;
+}
 
 ul.posts {
   list-style-type: none;
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+}
 
 ul.posts li {
   border-bottom: 1px solid #eee;
   max-width: 420px;
   line-height: 1em;
-  padding: 15px 25px 15px;
+  padding:15px 25px 15px;
   margin: 0 auto;
-  text-align: center; }
+  text-align: center;
+}
 
 ul.posts span {
   color: #aaa;
-  font-size: 80%; }
+  font-size: 80%;
+}
 
 /*****************************************************************************/
 /*
 /* Site
 /*
 /*****************************************************************************/
+
 .site {
   background-color: #fff;
   font-size: 115%;
   text-align: justify;
   max-width: 800px;
   margin: 15px auto 0 auto;
-  line-height: 1.5em; }
+  line-height: 1.5em;
+}
 
-@media screen and (max-width: 320px) {
+ @media screen and (max-width: 320px) {
   .site {
-    margin-top: 0; } }
+    margin-top: 0;
+  }
+
+ }
+
+
 .site .header a {
   font-weight: bold;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .site .header h1.title {
   display: inline-block;
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+}
 
 .site .header h1.title a {
-  color: #a00; }
+  color: #a00;
+}
 
 .site .header h1.title a:hover {
-  color: #000; }
+  color: #000;
+}
 
 .site .header a.extra {
   color: #aaa;
-  margin-left: 1em; }
+  margin-left: 1em;
+}
 
 .site .header a.extra:hover {
-  color: #000; }
+  color: #000;
+}
 
 .site .meta {
-  color: #aaa; }
+  color: #aaa;
+}
 
 /* Footer */
+
 div.footer {
   padding-top: 15px;
-  padding-bottom: 15px; }
+  padding-bottom: 15px;
+}
 
 /*****************************************************************************/
 /*
 /* Posts
 /*
 /*****************************************************************************/
+
 h2.post_headline {
   font-size: 40px;
   line-height: 1.5;
-  padding-top: 25px; }
+  padding-top: 25px;
+}
 
 h5.post_date {
   text-align: center;
   font-weight: 400;
-  font-size: 85%; }
+  font-size: 85%;
+}
 
 .post {
-  padding-bottom: 25px; }
+  padding-bottom: 25px;
+}
 
 .post h3 {
   padding-left: 50px;
   font-size: 24px;
-  font-weight: 500; }
+  font-weight: 500;
+}
 
 .post h4 {
   font-size: 30px;
-  text-align: center; }
+  text-align: center;
+}
 
 .post h5 {
   padding-top: 15px;
@@ -155,18 +193,22 @@ h5.post_date {
   text-align: center;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: #333; }
+  color: #333;
+}
+
 
 .post p {
   padding: 0 50px 0 50px;
-  line-height: 1.5; }
+  line-height: 1.5;
+}
 
 .post img {
   margin: 0 auto;
   text-align: center;
   display: block;
   height: auto;
-  max-width: 100%; }
+  max-width: 100%;
+}
 
 .post p.img-explanation {
   /* Positioning */
@@ -179,7 +221,8 @@ h5.post_date {
   text-align: center;
   /* Visual */
   border-top: 1px solid #ccc;
-  /* Misc */ }
+  /* Misc */
+}
 
 .post blockquote {
   /* Positioning */
@@ -187,72 +230,92 @@ h5.post_date {
   margin-left: 50px;
   margin-right: 100px;
   /* Typography */
+
   /* Visual */
-  border-left: 5px solid #ed6148;
-  /* Misc */ }
+  border-left: 5px solid rgb(237, 97, 72);;
+  /* Misc */
+}
 
 .post pre {
   background-color: #042029;
-  padding: 10px 25px 10px 25px; }
+  padding: 10px 25px 10px 25px;
+}
 
 .post ul, .post ol {
-  margin-left: 1.35em; }
+  margin-left: 1.35em;
+}
 
 .post ul li {
   margin-left: 50px;
   font-family: "kepler-std", Georgia, serif;
-  font-size: 17px; }
+  font-size: 17px;
+}
 
 .post code {
   background-color: #042029;
   color: #999999;
-  padding: 0 .2em; }
+  padding: 0 .2em;
+}
 
 .post pre code {
-  border: none; }
+  border: none;
+}
 
 @media screen and (max-width: 320px) {
   .post p {
     padding: 0 14px 0 14px;
     font-size: 18px;
-    line-height: 1.5; }
+    line-height: 1.5;
+  }
 
   .post p.img-explanation {
-    border-top: 0; }
+    border-top: 0;
+  }
 
   .post ul li {
     margin-left: 10px;
     padding-right: 25px;
-    font-size: 15px; } }
+    font-size: 15px;
+  }
+}
+
 /* terminal */
 .post pre.terminal {
   background-color: #333;
-  color: #FFF; }
+  color: #FFF;
+}
 
 .post pre.terminal code {
-  background-color: #333; }
+  background-color: #333;
+}
+
 
 /*****************************************************************************/
 /*
 /* About
 /*
 /*****************************************************************************/
+
 div.about_page {
   padding-top: 25px;
-  padding-bottom: 25px; }
+  padding-bottom: 25px;
+}
 
 div.about_page h5 {
   color: #858586;
   font-size: 12px;
   text-align: center;
   text-transform: uppercase;
-  padding-bottom: 25px; }
+  padding-bottom: 25px;
+}
 
 div.about_page p {
   padding-left: 25px;
-  padding-right: 25px; }
+  padding-right: 25px;
+}
 
 div.about_page h3 {
   text-align: center;
   font-size: 32px;
-  line-height: 1.5; }
+  line-height: 1.5;
+}
