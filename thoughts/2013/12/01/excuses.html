@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Excuses</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- TypeKit -->
+        <script type="text/javascript" src="//use.typekit.net/xdx2lpp.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/kublai.css">
+
+
+    </head>
+    <body>
+
+        <div class="site">
+          <div class="mkm_header">
+            <a href="/"><img src="/images/logo.png"></a>
+          </div>
+          <h2 class="text-center post_headline">Excuses</h2>
+<h5 class="post_date">December 01, 2013</h5>
+
+<div class="post">
+<p>There is always an excuse.</p>
+
+<p>Today my excuse was that the “L” key stopped working on my Macbook Air. Within an hour, the right Option key was transformed into an L key. How you may ask? That question was far too contrived.</p>
+
+<p>I’ll tell you how anyway though.</p>
+
+<p>I found a <a href="https://pqrs.org/index.html.en">keyboard remapping application</a> that featured a comprehensive but poorly organized library of documentation. Doesn’t seem like the guy is a native English speaker.  After rummaging through the documentation, I put this code into the program:</p>
+
+<div class="highlight"><pre><code class="xml"><span class="cp">&lt;?xml version=&quot;1.0&quot;?&gt;</span>
+<span class="nt">&lt;root&gt;</span>
+    <span class="nt">&lt;item&gt;</span>
+      <span class="nt">&lt;name&gt;</span>Swap Option with l<span class="nt">&lt;/name&gt;</span>
+      <span class="nt">&lt;identifier&gt;</span>private.swap_option_and_tab<span class="nt">&lt;/identifier&gt;</span>
+      <span class="nt">&lt;autogen&gt;</span>__KeyToKey__ KeyCode::OPTION_R, KeyCode::RawValue::0x25<span class="nt">&lt;/autogen&gt;</span>
+    <span class="nt">&lt;/item&gt;</span>
+<span class="nt">&lt;/root&gt;</span>
+</code></pre></div>
+
+<p>Magically (not really, there’s an obvious method), my right option key, now functions as if it is an L key. It’s strange. My hands still believe that my L key still works. It’s like a phantom limb, but way worse.</p>
+
+<p>Apparently the “L” key is <a href="https://github.com/tekezo/KeyRemap4MacBook/blob/version_9.2.0/src/bridge/generator/keycode/data/KeyCode.data">referred</a> to as 0x25 by OSX. I’m not entirely sure why.</p>
+
+<p>There is always an excuse. There is always an excuse not to code, to design, to write, to think. My L key is was probably the best excuse I’ve had in months not to write.</p>
+
+<p>Fuck excuses. It’s my time to assert my opinions onto the world.</p>
+
+<p>Fuck fear. It’s time to be aware of inevitable failure and try anyway.</p>
+
+</div>
+
+        </div>
+        <div class="footer">
+          &copy; 2014 Moiz K. Malik<br>
+          <a href="/">Home</a> &#183;
+          <a href="/about.html">About</a> &#183;
+          <a href="http://moiz.org">Portfolio</a> &#183;
+          <a href="http://dribbble.com/moizkhanmalik">Dribbble</a> &#183;
+          <a href="http://github.com/moizk">Github</a> &#183;
+          <a href="http://twitter.com/moizkmalik">Twitter</a>
+        </div>
+
+    </body>
+</html>
