@@ -29,7 +29,7 @@ It was at this point that I realized that identities are entirely arbitrary. I c
 
 I never fully understood why people were (and still are) so willing to trust me, even I didn't trust myself that much. But if people were willing to give up their power, I was willing to take it.
 
-(picture of stencils)
+![Stencils in Bushwick](http://blog.moiz.org/images/essays/stencils.jpg)
 
 ## Your luxury is my displacement
 
