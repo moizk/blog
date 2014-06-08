@@ -181,6 +181,16 @@ h5.post_date {
   border-top: 1px solid #ccc;
   /* Misc */ }
 
+.post blockquote {
+  /* Positioning */
+  /* Box-model */
+  margin-left: 50px;
+  margin-right: 100px;
+  /* Typography */
+  /* Visual */
+  border-left: 5px solid #ed6148;
+  /* Misc */ }
+
 .post pre {
   background-color: #042029;
   padding: 10px 25px 10px 25px; }
