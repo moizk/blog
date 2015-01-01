@@ -168,6 +168,7 @@ I also accomplished a few unexpected personal goals in 2014.
 7. Travel to somewhere in Europe (London? Ireland?)
 8. Release Kublai CSS Framework
 9. Develop [Library of Moiz](http://library-of-moiz.herokuapp.com/)
+10. Up my code streak to 655 days, currently at 290.
 
 The future is bright. 
 
