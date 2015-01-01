@@ -39,15 +39,14 @@
 
 <p>I found a <a href="https://pqrs.org/index.html.en">keyboard remapping application</a> that featured a comprehensive but poorly organized library of documentation. Doesn’t seem like the guy is a native English speaker.  After rummaging through the documentation, I put this code into the program:</p>
 
-<div class="highlight"><pre><code class="xml"><span class="cp">&lt;?xml version=&quot;1.0&quot;?&gt;</span>
-<span class="nt">&lt;root&gt;</span>
-    <span class="nt">&lt;item&gt;</span>
-      <span class="nt">&lt;name&gt;</span>Swap Option with l<span class="nt">&lt;/name&gt;</span>
-      <span class="nt">&lt;identifier&gt;</span>private.swap_option_and_tab<span class="nt">&lt;/identifier&gt;</span>
-      <span class="nt">&lt;autogen&gt;</span>__KeyToKey__ KeyCode::OPTION_R, KeyCode::RawValue::0x25<span class="nt">&lt;/autogen&gt;</span>
-    <span class="nt">&lt;/item&gt;</span>
-<span class="nt">&lt;/root&gt;</span>
-</code></pre></div>
+<div class="highlight"><pre><code class="language-xml" data-lang="xml">&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;root&gt;
+    &lt;item&gt;
+      &lt;name&gt;Swap Option with l&lt;/name&gt;
+      &lt;identifier&gt;private.swap_option_and_tab&lt;/identifier&gt;
+      &lt;autogen&gt;__KeyToKey__ KeyCode::OPTION_R, KeyCode::RawValue::0x25&lt;/autogen&gt;
+    &lt;/item&gt;
+&lt;/root&gt;</code></pre></div>
 
 <p>Magically (not really, there’s an obvious method), my right option key, now functions as if it is an L key. It’s strange. My hands still believe that my L key still works. It’s like a phantom limb, but way worse.</p>
 

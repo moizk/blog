@@ -169,8 +169,20 @@ h5.post_date {
   padding-bottom: 25px;
 }
 
+.post h2 {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  border-top: 1px solid #eee;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
 .post h3 {
   padding-left: 50px;
+  padding-bottom: 25px;
+  padding-top: 25px;
   font-size: 24px;
   font-weight: 500;
 }
@@ -243,6 +255,12 @@ h5.post_date {
 }
 
 .post ul li {
+  margin-left: 50px;
+  font-family: "kepler-std", Georgia, serif;
+  font-size: 17px;
+}
+
+.post ol li {
   margin-left: 50px;
   font-family: "kepler-std", Georgia, serif;
   font-size: 17px;
