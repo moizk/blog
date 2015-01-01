@@ -173,13 +173,19 @@ h5.post_date {
 }
 
 .post h2 {
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 28px;
+  font-weight: 700;
   text-align: center;
+  border-top: 1px solid #eee;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
 .post h3 {
   padding-left: 50px;
+  padding-bottom: 25px;
+  padding-top: 25px;
   font-size: 24px;
   font-weight: 500;
 }
