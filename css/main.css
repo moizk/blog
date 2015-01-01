@@ -172,6 +172,12 @@ h5.post_date {
   padding-bottom: 25px;
 }
 
+.post h2 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
 .post h3 {
   padding-left: 50px;
   font-size: 24px;
@@ -246,6 +252,12 @@ h5.post_date {
 }
 
 .post ul li {
+  margin-left: 50px;
+  font-family: "kepler-std", Georgia, serif;
+  font-size: 17px;
+}
+
+.post ol li {
   margin-left: 50px;
   font-family: "kepler-std", Georgia, serif;
   font-size: 17px;
