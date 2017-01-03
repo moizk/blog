@@ -1,10 +1,17 @@
 div.mkm_header {
-	background-color: rgb(237, 97, 72);
-	text-align: center;
+  /* Positioning */
+  /* Box-model */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* Typography */
+  text-align: center;
+  /* Visual */
+  background-color: #fcff00;
+  /* Misc */
 }
 
 div.mkm_header img {
-	width: 200px;
+	width: 100px;
 }
 
 /* Helper Classes */
