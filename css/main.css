@@ -14,8 +14,9 @@
 }
 
 body {
-  background-color: #fcff00;
-  font: 13.34px "Proxima-Nova", Helvetica, Arial, sans-serif;
+  background-color: #111;
+  color: #fff;
+  font: 13.34px "nimbus-sans", sans-serif;
   font-size: small;
   text-align: center;
 }
@@ -31,10 +32,10 @@ h3 {
 }
 
 p {
-  font-family: "kepler-std",serif;
+  font-family: "exchange",sans-serif;
   font-size: 20px;
   font-weight: 300;
-  color: #333;
+  color: #fff;
   margin: 1em 0;
 }
 
@@ -62,11 +63,7 @@ h2#archive {
   text-align: center;
   text-transform: uppercase;
   /* Visual */
-  background-color: #333;
   color: #fff;
-  border-radius: 10px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
   /* Misc */
 }
 
@@ -104,7 +101,7 @@ ul.posts span {
 /*****************************************************************************/
 
 .site {
-  background-color: #222;
+  background-color: #111;
   text-align: justify;
   max-width: 300px;
   margin: 15px auto 0 auto;
@@ -113,13 +110,13 @@ ul.posts span {
 }
 
 div.site-alt {
-  background-color: #fff;
+  background-color: #111;
   text-align: left;
   max-width: 800px;
   margin: 15px auto 0 auto;
   line-height: 1.5em;
   border-radius: 10px;
-  color: #333;
+  color: #fff;
 }
 
  @media screen and (max-width: 320px) {
@@ -169,7 +166,7 @@ div.footer {
 }
 
 div.footer a {
-  color: #222;
+  color: #fff;
 }
 
 /*****************************************************************************/
@@ -237,7 +234,7 @@ h5.post_date {
 }
 
 .post p a {
-  color: #222;
+  color: #fff;
 }
 
 .post img {
@@ -266,12 +263,15 @@ h5.post_date {
   /* Positioning */
   /* Box-model */
   margin-left: 50px;
-  margin-right: 100px;
+  margin-right: 20px;
   /* Typography */
-
   /* Visual */
   border-left: 5px solid rgb(237, 97, 72);;
   /* Misc */
+}
+
+.post blockquote p {
+  padding-left: 20px;
 }
 
 .post pre {
@@ -281,17 +281,18 @@ h5.post_date {
 
 .post ul, .post ol {
   margin-left: 1.35em;
+  line-height: 2;
 }
 
 .post ul li {
   margin-left: 50px;
-  font-family: "kepler-std", Georgia, serif;
+  font-family: "exchange", sans-serif;
   font-size: 17px;
 }
 
 .post ol li {
   margin-left: 50px;
-  font-family: "kepler-std", Georgia, serif;
+  font-family: "exchange", sans-serif;
   font-size: 17px;
 }
 

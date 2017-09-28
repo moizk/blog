@@ -1,12 +1,26 @@
 div.mkm_header {
   /* Positioning */
   /* Box-model */
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
   /* Typography */
-  text-align: center;
+  text-align: left;
+  font-family: "nimbus-sans", sans-serif;
+  color: #fff;
   /* Visual */
-  background-color: #fcff00;
+  background-color: #111;
+  /* Misc */
+}
+
+div.mkm_header h1 {
+  /* Positioning */
+  /* Box-model */
+  padding-top: 10px;
+  /* Typography */
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  /* Visual */
   /* Misc */
 }
 
